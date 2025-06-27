@@ -20,17 +20,36 @@ const UseState = () => {
     )
 }
 const style = StyleSheet.create({
+<<<<<<< HEAD
     view: {
+=======
+    view1: {
+>>>>>>> 99fc50a (Topics covered in React Native)
         borderWidth: 1,
         borderStyle: "solid",
         borderColor: "black",
         backgroundColor: "white", 
+<<<<<<< HEAD
         width: "30%",
         margin: 10,
         justifyContent: "space-evenly",
         flexDirection: "row",
         alignItems: "center"
     },
+=======
+        height:"90%",
+        margin: "10%",
+        justifyContent: "center",
+        alignItems: "center"
+    },
+    view2:{
+        borderWidth:2,
+        flexDirection:"row",
+        width:"50%",
+        alignItems:"center",
+        justifyContent:"space-evenly"
+    },
+>>>>>>> 99fc50a (Topics covered in React Native)
     button: {
         width: 5
     }
